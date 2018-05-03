@@ -1,0 +1,108 @@
+h6 { font-family: 'Roboto', sans-serif; 
+         color: white;
+         text-align: center;
+         font-size: 26pt;
+         
+}
+
+h5 { font-family: 'Roboto', sans-serif; 
+         color: white;
+         text-align: center;
+         font-size: 32pt;
+} 
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 2.5in;
+}
+
+
+
+.imagecircle { 
+    margin-left: .5in;
+    float: left;
+} 
+
+.parallax {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;  
+    padding-bottom: 30px;
+    margin-left: 1in;
+    margin-right: 1in; 
+}
+
+p { 
+    font-family: 'Roboto', sans-serif; 
+    margin-left: 1in;
+    margin-right: 1in; 
+    font-size: 12pt;
+    letter-spacing: 1px;
+    
+} 
+
+h3 {  
+    font-size: 30pt; 
+    padding-top: 1in;
+    color: #696969;
+}
+
+ul, li {
+    text-decoration: center;
+    color: #696969;
+} 
+
+
+h4 {
+    margin-left: 1in; 
+    margin-right: 1in; 
+} 
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
